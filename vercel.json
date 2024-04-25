@@ -11,13 +11,7 @@
 
   "env": {
     "PYTHON_VERSION": "3.8"
-},
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/main.py"
-        }
-    ]
+}
     
   }
 
