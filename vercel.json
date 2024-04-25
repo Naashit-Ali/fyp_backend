@@ -1,16 +1,15 @@
 {
-    "version":2,
-    "builds":[
+    "version": 2,
+    "builds": [
         {
-            "src":"/venv/main.py",
-            "use":"@vercel/python"
+            "src": "/api/index.py",
+            "use": "@vercel/python"
         }
     ],
-    "routes":[
+    "routes": [
         {
-            "src":"/(.*)",
-            "dest":"venv/main.py"
+            "src": "/api/(.*)",
+            "dest": "/api/index.py"
         }
     ]
-
 }
